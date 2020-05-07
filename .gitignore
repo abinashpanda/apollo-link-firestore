@@ -3,4 +3,11 @@ node_modules
 
 # dist
 dist
+.rts2_cache_*
+
+# error logs
+yarn-error.log
+
+# vim
+*.swp
 

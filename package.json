@@ -2,9 +2,14 @@
   "name": "apollo-link-firestore",
   "version": "0.0.1",
   "description": "apollo-link-firestore provides a simple way to fetch data from firebase firestore",
+  "source": "src/index.ts",
   "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -36,6 +41,8 @@
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "apollo-boost": "^0.4.7",
-    "graphql": "^15.0.0"
+    "firebase": "^7.14.2",
+    "graphql": "^15.0.0",
+    "microbundle": "^0.12.0-next.9"
   }
 }
