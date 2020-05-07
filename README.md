@@ -137,3 +137,19 @@ const Profile = ({ userId }) => {
 ### Subscriptions
 
 ## Integration with `apollo-codegen`
+
+## Contributing
+
+### Setup
+
+To run the example, use
+
+```bash
+yarn dev
+```
+
+and in another terminal
+
+```bash
+cd example && yarn start
+```

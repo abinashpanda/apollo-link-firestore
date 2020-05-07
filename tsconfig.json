@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "ES2015",
+    "moduleResolution": "Node",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

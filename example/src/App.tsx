@@ -18,7 +18,6 @@ const firestore = firebase.firestore()
 const firestoreLink = createFirestoreLink({ firestore })
 
 const client = new ApolloClient({
-  // @ts-ignore
   link: firestoreLink,
   cache: new InMemoryCache(),
 })
