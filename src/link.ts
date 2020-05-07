@@ -7,7 +7,7 @@ const createFirestoreLink = ({
   firestore: _firestore.Firestore
 }) => {
   console.log(firestore)
-  return null
+  return undefined
 }
 
 export default createFirestoreLink

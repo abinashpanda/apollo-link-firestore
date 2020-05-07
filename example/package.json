@@ -1,0 +1,43 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2",
+    "apollo-boost": "link:../node_modules/apollo-boost",
+    "apollo-link-firestore": "link:..",
+    "graphql": "link:../node_modules/graphql",
+    "@apollo/react-hooks": "link:../node_modules/@apollo/react-hooks",
+    "firebase": "link:../node_modules/firebase"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-app-rewired": "^2.1.6",
+    "tailwindcss": "^1.4.5"
+  }
+}
